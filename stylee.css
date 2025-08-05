@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #c574a4, #a9aaac);
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  .lagu-photo-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .lagu {
+    flex: 1;
+    min-width: 250px;
+    text-align: left;
+  }
+  
+  .photo-lagu img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+  }
+  
+  .cerita {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .back {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .back a {
+    text-decoration: none;
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back a:hover {
+    background-color: #ff69b4;
+  }
+  
+  audio {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+  }
+  
